@@ -57,3 +57,6 @@ vim.opt.hlsearch = true
 
 -- Disable Nerd Font
 vim.g.have_nerd_font = false
+
+-- Disable lsp logs to prevent slowing down neovim
+vim.lsp.set_log_level("debug")
